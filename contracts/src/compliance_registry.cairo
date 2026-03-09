@@ -12,13 +12,12 @@
 //   GDPR Art. 25  → data protection by design and by default
 
 use starknet::ContractAddress;
-use starknet::get_caller_address;
-use starknet::get_block_timestamp;
 
 // ─── Enums ───────────────────────────────────────────────────────────────────
 
 #[derive(Drop, Serde, starknet::Store, PartialEq, Copy)]
 enum ComplianceFramework {
+    #[default]
     LGPD,      // Lei Geral de Proteção de Dados (Brazil)
     GDPR,      // General Data Protection Regulation (EU)
     LGPD_GDPR, // Dual compliance
@@ -26,6 +25,7 @@ enum ComplianceFramework {
 
 #[derive(Drop, Serde, starknet::Store, PartialEq, Copy)]
 enum AttestationStatus {
+    #[default]
     Active,
     Revoked,
     Expired,
@@ -136,6 +136,10 @@ mod ComplianceRegistry {
     use starknet::ContractAddress;
     use starknet::get_caller_address;
     use starknet::get_block_timestamp;
+    use starknet::storage::{
+        StoragePointerReadAccess, StoragePointerWriteAccess,
+        StorageMapReadAccess, StorageMapWriteAccess,
+    };
 
     // ─── Storage ─────────────────────────────────────────────────────────────
 

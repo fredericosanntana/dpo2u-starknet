@@ -199,7 +199,8 @@ This is not a "what if blockchain could do compliance" project. DPO2U is an acti
 
 - GitHub: https://github.com/fredericosanntana/dpo2u-starknet
 - Docs: https://docs.dpo2u.com
-- Contract (Sepolia): *(deploying — link to follow)*
+- Contract (Sepolia): [`0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a`](https://sepolia.starkscan.co/contract/0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a)
+- Class Hash: `0x00979c6fbde19fd4a88e03b9fbae58bb0cf43044e11c7809b8f5d6cd45783cac`
 - Interactive demo: `demo/index.html` (open in browser)
 
 ---

@@ -8,6 +8,9 @@ dist/
 contracts/target/
 contracts/.scarb/
 
+# Wallet keys (encrypted, but still sensitive)
+.starkli-wallets/
+
 # OS
 .DS_Store
 Thumbs.db

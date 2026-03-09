@@ -11,8 +11,8 @@ import {
   verifyCommitment,
 } from '../lib/client';
 
-const RPC     = 'https://starknet-sepolia.public.blastapi.io/rpc/v0_7';
-const CONTRACT = process.env.CONTRACT_ADDRESS ?? '0x' + '0'.repeat(63) + '1';
+const RPC     = process.env.STARKNET_RPC_URL ?? 'https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_8/demo';
+const CONTRACT = process.env.CONTRACT_ADDRESS ?? '0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a';
 
 const EVIDENCE = {
   cnpjHash:    'sha256:12345678000195',

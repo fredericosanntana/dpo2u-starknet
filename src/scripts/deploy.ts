@@ -14,7 +14,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { RpcProvider, Account, CallData } from 'starknet';
 
-const RPC_URL = 'https://starknet-sepolia.public.blastapi.io/rpc/v0_7';
+const RPC_URL = process.env.STARKNET_RPC_URL ?? 'https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_8/demo';
 
 async function main() {
   const accountAddress = process.env.ACCOUNT_ADDRESS;

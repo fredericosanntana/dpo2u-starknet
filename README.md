@@ -3,8 +3,10 @@
 > **Privacy Track — Bitcoin & Privacy Hackathon 2026**  
 > Prove regulatory compliance without revealing personal data on-chain.
 
-[![Starknet](https://img.shields.io/badge/Starknet-Sepolia-blue)](https://sepolia.starkscan.co)
+[![Starknet](https://img.shields.io/badge/Starknet-Sepolia-blue)](https://sepolia.starkscan.co/contract/0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+> **Deployed on Starknet Sepolia:** [`0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a`](https://sepolia.starkscan.co/contract/0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a)
 
 ---
 
@@ -194,7 +196,7 @@ const valid = verifyCommitment(rawEvidence, commitment);
 ## Links
 
 - [Demo video](#) *(recording in progress)*
-- [Deployed contract on Sepolia](#) *(deployment in progress)*
+- [Deployed contract on Sepolia](https://sepolia.starkscan.co/contract/0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a)
 - [DPO2U Documentation](https://docs.dpo2u.com)
 - [Twitter/X](https://x.com/fredericosanntana)
 
