@@ -1,0 +1,23 @@
+{
+  "name": "dpo2u-starknet",
+  "version": "0.1.0",
+  "description": "DPO2U Compliance Registry on Starknet — Privacy-preserving LGPD/GDPR attestations using Pedersen hash commitments",
+  "main": "dist/lib/client.js",
+  "types": "dist/lib/client.d.ts",
+  "scripts": {
+    "demo": "npx ts-node src/scripts/demo.ts",
+    "build": "npx tsc",
+    "test": "npx ts-node tests/commitment.test.ts"
+  },
+  "keywords": ["starknet", "cairo", "compliance", "LGPD", "GDPR", "privacy", "zk", "pedersen"],
+  "author": "Fred Santana <fred@dpo2u.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "starknet": "^9.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.local
+*.env
+
+# Cairo build artifacts
+contracts/target/
+contracts/.scarb/
+
+# OS
+.DS_Store
+Thumbs.db
