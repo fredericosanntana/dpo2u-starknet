@@ -196,7 +196,7 @@ const valid = verifyCommitment(rawEvidence, commitment);
 ## Links
 
 - [Demo video](#) (https://youtu.be/pFxA9D8wXtA)
-- [Deployed contract on Sepolia](https://sepolia.starkscan.co/contract/0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a)
+- [Deployed contract on Sepolia](https://sepolia.voyager.online/contract/0x05235b085e3845b0a6f206edbc712f6d51917169b0e864177cb2321183b5fc4a)
 - [DPO2U Documentation](https://docs.dpo2u.com)
 - [Twitter/X](https://x.com/fredericosanntana)
 
